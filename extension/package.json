@@ -37,9 +37,7 @@
     "prettier": "3.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.4.5"
-  },
-  "dependencies": {
+    "typescript": "5.4.5",
     "base64-js": "^1.5.1",
     "ts-proto": "^1.172.0"
   }

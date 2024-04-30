@@ -27,3 +27,17 @@ in the server's console logs.
 
 The client publishes these messages to the `/client/json-messages` and `/client/protobuf-messages` topics;
 once the server parses those, it forwards the parsed messages to the respective server channels for debugging.
+
+## Protobuf considerations
+
+This example uses the `.proto` used in the blog post; its Python module is generated via:
+
+```
+protoc --python_out=. ExampleMsg.proto
+```
+
+The Typescript module is generated using [ts-proto](https://github.com/stephenh/ts-proto):
+
+```
+protoc --plugin=./node_modules/.bin/protoc-gen-ts_proto --ts_proto_out=. ExampleMsg.proto
+```
