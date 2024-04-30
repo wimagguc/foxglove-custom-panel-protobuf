@@ -6,13 +6,15 @@ Largely based on [jtbandes](https://github.com/jtbandes)'s blog post [Using Prot
 
 ## Run the example
 
-Components in this package:
+![image](misc/docs/publish-from-client.png)
+
+### Components in this package
 
 * `server`: A websocket server using [Foxglove WebSocket Protocol](https://github.com/foxglove/ws-protocol)
 * `extension`: Custom extension created via [foxglove/create-foxglove-extension](https://github.com/foxglove/create-foxglove-extension)
 * `misc`: The proto used for this example, and an example Foxglove layout used for debugging
 
-Test end-to-end:
+### Test end-to-end
 
 1. Run the websocket server using instructions in `server/README.md`
 2. Open Foxglove with a Foxglove WebSocket connection to `ws://localhost:8765`

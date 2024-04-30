@@ -1,0 +1,34 @@
+{
+  "configById": {
+    "RawMessages!2b3an4m": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/server/protobuf-messages"
+    },
+    "RawMessages!1zaz3dw": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/server/json-messages"
+    },
+    "demo.example-panel!1e6ezh7": {}
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "first": {
+      "first": "RawMessages!2b3an4m",
+      "second": "RawMessages!1zaz3dw",
+      "direction": "row"
+    },
+    "second": "demo.example-panel!1e6ezh7",
+    "direction": "column",
+    "splitPercentage": 37.698412698412696
+  }
+}
